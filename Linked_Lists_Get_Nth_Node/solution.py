@@ -12,4 +12,4 @@ def get_nth(node, index):
             return cur_node
         count += 1
         cur_node = cur_node.next
-    raise ArgumentException()
+    raise IndexError()

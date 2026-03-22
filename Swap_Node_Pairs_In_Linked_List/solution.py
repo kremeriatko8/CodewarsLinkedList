@@ -1,6 +1,6 @@
 class Node:
-    def __init__(self, next=None):
-        self.next = next
+    def __init__(self, next_node=None):
+        self.next = next_node
 
 def swap_pairs(head):
     if head is None or head.next is None:
